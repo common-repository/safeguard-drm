@@ -1,0 +1,138 @@
+<html>
+
+<head>
+
+<title>Update ArtisBrowser</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<script>
+
+var OSName = "Unknown";
+
+if (window.navigator.userAgent.indexOf("Windows NT 10.0")     != -1) { OSName="WinNew"; }
+
+else if (window.navigator.userAgent.indexOf("Windows NT 6.3") != -1) { OSName="WinNew"; }
+
+else if (window.navigator.userAgent.indexOf("Windows NT 6.2") != -1) { OSName="WinNew"; }
+
+else if (window.navigator.userAgent.indexOf("Windows NT 6.1") != -1) { OSName="WinNew"; }
+
+else if (window.navigator.userAgent.indexOf("Windows NT 6.0") != -1) { OSName="WinOld"; }
+
+else if (window.navigator.userAgent.indexOf("Windows NT 5.1") != -1) { OSName="WinOld"; }
+
+else if (window.navigator.userAgent.indexOf("Android")        != -1) { OSName="Android"; }
+
+else if (window.navigator.userAgent.indexOf("iPhone")         != -1) { OSName="iOS"; }
+
+else if (window.navigator.userAgent.indexOf("iPad")           != -1) { OSName="iOS"; }
+
+else if (window.navigator.userAgent.indexOf("Mac")            != -1) { OSName="Mac"; }
+
+var OSbit = "";
+
+if (window.navigator.userAgent.indexOf("WOW64") != -1 || window.navigator.userAgent.indexOf("Win64") != -1 ){
+
+       OSbit = "64-bit";
+
+    } 
+
+</script>
+<style>
+html {
+   font-family: "Calibri", sans-serif !important;
+}    
+</style>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<table align="center" border="0" cellpadding="10" cellspacing="0" width="380">
+<tr>
+
+    <td class="text" align="center" rowspan="2" valign="top"> <img src="images/artisbrowser256.png" border="0" width="123" height="106"> 
+      <p>This website requires the latest version of ArtisBrowser.</p>
+
+      <div align="center">
+<table border="0" cellpadding="5" cellspacing="0" width="100%" style="border-collapse: collapse; border-color:#C0C0C0" bgcolor="#FFFFFF">
+                      <tr>
+                        <td align="center">
+<script>
+	document.writeln("<table width='100%' border='0' cellspacing='0' cellpadding='3'>");
+	if (OSName == "WinNew") {
+
+		if (OSbit = "64-bit") {
+
+			document.writeln("<tr><td align='center'><a href='https://images.artistscope.com/download/ASPS_Browser_install.zip'><img src='images/windows300.png' border='0'></a></td></tr>");
+
+			document.writeln("<tr><td class='text' nowrap align='center'><a href='https://images.artistscope.com/download/ASPS_Browser_install.zip'><u>Download Now</u></a></td></tr>");
+
+	}	else {
+
+			document.writeln("<tr><td align='center'><a href='https://images.artistscope.com/download/ASPS_Browser_install.zip'><img src='images/windows300.png' border='0'></a></td></tr>");
+
+			document.writeln("<tr><td class='text' nowrap align='center'><a href='https://images.artistscope.com/download/ASPS_Browser_install.zip'><u>Download Now</u></a></td></tr>");			
+
+		}
+
+	} else if (OSName == "WinOld") {
+
+		document.writeln("<tr><td align='center'><a href='https://images.artistscope.com/download/ASPS_Browser_install_XP.zip'><img src='images/windows300.png' border='0'></a></td></tr>");
+
+		document.writeln("<tr><td class='text' nowrap align='center'><a href='https://images.artistscope.com/download/ASPS_Browser_install_XP.zip'><u>Download Now</u></a></td></tr>");
+
+	} else if (OSName == "Mac") {
+
+		document.writeln("<tr><td align='center'><a href='https://images.artistscope.com/download/ArtisBrowser-Mac64.zip'><img src='images/mac300.png' border='0'></a></td></tr>");
+
+		document.writeln("<tr><td class='text' nowrap align='center'><a href='https://images.artistscope.com/download/ArtisBrowser-Mac64.zip'><u>Download Now</u></a></td></tr>");
+
+	} else if (OSName == "Android") {
+		document.writeln("<tr><td align='center'><a href='https://play.google.com/store/apps/details?id=com.artis.browser'><img src='images/googleplay300.png' border='0'></a></td></tr>");
+		document.writeln("<tr><td class='text' nowrap align='center'><a href='https://play.google.com/store/apps/details?id=com.artis.browser'><u>Download Now</u></a></td></tr>");
+
+	} else if (OSName == "iOS") {
+
+		document.writeln("<tr><td align='center'><a href='https://apps.apple.com/us/app/artisbrowser/id1559093857'><img src='images/app-store-300.png' border='0'></a></td></tr>");
+
+		document.writeln("<tr><td class='text' nowrap align='center'><a href='https://apps.apple.com/us/app/artisbrowser/id1559093857'><u>Download Now</u></a></td></tr>");
+
+	} else {
+
+		document.writeln("<tr><td class='text' nowrap align='center'>ArtisBrowser is NOT available for your OS/device.</td></tr>");
+
+	}
+
+	document.writeln("</table>");
+
+</script>
+
+
+
+
+
+                       </td>
+
+                      </tr>
+
+                    </table>
+
+<br>
+      </div>
+
+
+
+</td>
+
+</tr>
+
+</table>
+
+
+
+</body>
+
+</html>
+

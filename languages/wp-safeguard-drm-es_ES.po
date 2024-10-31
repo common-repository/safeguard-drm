@@ -1,0 +1,240 @@
+# Translation of Plugins - Safeguard Media in Spanish
+# This file is distributed under the same license as the Plugin Safeguard Media.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-04-05 08:39:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Safeguard Media\n"
+
+#. Description of the plugin
+msgid "This Wordpress plugin enables sites to copy protect media displayed on WordPress pages and posts."
+msgstr "Este complemento de Wordpress permite que los sitios protejan los medios que se muestran en las páginas y publicaciones de WordPress."
+
+#: wp-safeguard-media.php:47
+msgid "List Files"
+msgstr "Listar archivos"
+
+#: wp-safeguard-media.php:48
+msgid "Settings"
+msgstr "Ajustes"
+
+#: wp-safeguard-media.php:136
+msgid "Please upload file to continue."
+msgstr "Cargue el archivo para continuar."
+
+#: wp-safeguard-media.php:139
+msgid "Sorry, only jpg, jpeg, png, gif, mp4, pdf, doc, docx files are allowed."
+msgstr "Lo sentimos, solo se permiten archivos jpg, jpeg, png, gif, mp4, pdf, doc, docx."
+
+#: wp-safeguard-media.php:144
+msgid "Sorry, your file was not uploaded."
+msgstr "Lo sentimos, su archivo no fue subido."
+
+#: wp-safeguard-media.php:189
+msgid "The file %1$s has been uploaded. Click <a href=\"%2$s\">here</a> to update below list."
+msgstr "El archivo %1$s ha sido cargado. Haga clic <a href=\"%2$s\">aquí</a> para actualizar la lista a continuación."
+
+#: wp-safeguard-media.php:192
+msgid "Sorry, there was an error uploading your file."
+msgstr "Lo sentimos, hubo un error al cargar su archivo."
+
+#: wp-safeguard-media.php:310
+msgid "List Media Files"
+msgstr "Listar archivos multimedia"
+
+#: wp-safeguard-media.php:314
+msgid "Upload"
+msgstr "Subir"
+
+#: wp-safeguard-media.php:317
+msgid "Provide link to external media"
+msgstr "Proporcionar enlace a medios externos"
+
+#: wp-safeguard-media.php:321
+msgid "Submit"
+msgstr "Enviar"
+
+#: wp-safeguard-media.php:325
+msgid "Registered Media Files"
+msgstr "Archivos multimedia registrados"
+
+#: wp-safeguard-media.php:330
+msgid "Media Link"
+msgstr "Enlace multimedia"
+
+#: wp-safeguard-media.php:331
+msgid "Filename"
+msgstr "Nombre del archivo"
+
+#: wp-safeguard-media.php:332
+msgid "Shortcode"
+msgstr "Código corto"
+
+#: wp-safeguard-media.php:333
+msgid "Last updated"
+msgstr "Última actualización"
+
+#: wp-safeguard-media.php:633
+msgid "Settings Saved"
+msgstr "Ajustes guardados"
+
+#: wp-safeguard-media.php:684
+msgid "Default Settings"
+msgstr "Configuración por defecto"
+
+#: wp-safeguard-media.php:688
+msgid "Default settings applied to all media:"
+msgstr "Configuración predeterminada aplicada a todos los medios:"
+
+#: wp-safeguard-media.php:697
+msgid "SafeGuard API Key:"
+msgstr "Clave API de SafeGuard:"
+
+#: wp-safeguard-media.php:701
+msgid "SafeGuard API Key"
+msgstr "Clave API de SafeGuard"
+
+#: wp-safeguard-media.php:701
+msgid "Set the mode to use. Use Active if you have a SafeGuard Media account. Otherise set for Debug mode."
+msgstr "Configure el modo a utilizar. Use Activo si tiene una cuenta de SafeGuard Media. Otro ajuste para el modo de depuración."
+
+#: wp-safeguard-media.php:712
+msgid "Mode"
+msgstr "Modo"
+
+#: wp-safeguard-media.php:728
+msgid "Width - in pixels:"
+msgstr "Ancho - en píxeles:"
+
+#: wp-safeguard-media.php:732
+msgid "Set width of the media viewer."
+msgstr "Establecer el ancho del visor de medios."
+
+#: wp-safeguard-media.php:740
+msgid "Height - in pixels:"
+msgstr "Altura - en píxeles:"
+
+#: wp-safeguard-media.php:744
+msgid "Set height of the media viewer."
+msgstr "Establezca la altura del visor de medios."
+
+#: wp-safeguard-media.php:803
+msgid "Allow Windows:"
+msgstr "Permitir Windows:"
+
+#: wp-safeguard-media.php:807
+msgid "To allow access to Windows computers or not."
+msgstr "Permitir o no el acceso a equipos Windows."
+
+#: wp-safeguard-media.php:818
+msgid "Allow Mac OSX:"
+msgstr "Permitir Mac OSX:"
+
+#: wp-safeguard-media.php:822
+msgid "To allow access to Mac OSX computers or not."
+msgstr "Permitir o no el acceso a ordenadores Mac OSX."
+
+#: wp-safeguard-media.php:833
+msgid "Allow Android:"
+msgstr "Permitir Android:"
+
+#: wp-safeguard-media.php:837
+msgid "To allow access to Android devices or not."
+msgstr "Permitir o no el acceso a dispositivos Android."
+
+#: wp-safeguard-media.php:848
+msgid "Allow IOS:"
+msgstr "Permitir iOS:"
+
+#: wp-safeguard-media.php:852
+msgid "To allow access to iOS (iPad/iPhone) devices or not."
+msgstr "Para permitir el acceso a dispositivos iOS (iPad/iPhone) o no."
+
+#: wp-safeguard-media.php:863
+msgid "Allow Remote:"
+msgstr "Permitir remoto:"
+
+#: wp-safeguard-media.php:867
+msgid "To allow acess to Remote/virtual devices or not."
+msgstr "Para permitir el acceso a dispositivos remotos/virtuales o no."
+
+#: wp-safeguard-media.php:878
+msgid "Min.Version Default:"
+msgstr "Versión mínima predeterminada:"
+
+#: wp-safeguard-media.php:882
+msgid "ArtisBrowser min. version required."
+msgstr "ArtisBrowser mín. versión requerida."
+
+#: wp-safeguard-media.php:891
+msgid "Watermark Settings"
+msgstr "Configuración de marca de agua"
+
+#: wp-safeguard-media.php:895
+msgid "On/Off Watermark:"
+msgstr "Marca de agua activada/desactivada:"
+
+#: wp-safeguard-media.php:899
+msgid "To show a Watermark or not."
+msgstr "Para mostrar una marca de agua o no."
+
+#: wp-safeguard-media.php:911
+msgid "Watermark Text:"
+msgstr "Texto de marca de agua:"
+
+#: wp-safeguard-media.php:915
+msgid "Info for watermark message: Current user ID, Name, Email, Date."
+msgstr "Información para el mensaje de marca de agua: ID de usuario actual, nombre, correo electrónico, fecha."
+
+#: wp-safeguard-media.php:926
+msgid "Text Color:"
+msgstr "Color de texto:"
+
+#: wp-safeguard-media.php:930
+msgid "CSS code for Text color for watermark."
+msgstr "Código CSS para color de texto para marca de agua."
+
+#: wp-safeguard-media.php:950
+msgid "Shade Color:"
+msgstr "Color de Sombra:"
+
+#: wp-safeguard-media.php:954
+msgid "CSS code for Shade color for watermark."
+msgstr "Código CSS para Color de sombra para marca de agua."
+
+#: wp-safeguard-media.php:977
+msgid "Position:"
+msgstr "Posición:"
+
+#: wp-safeguard-media.php:981
+msgid "Position for watermark."
+msgstr "Posición para la marca de agua."
+
+#: wp-safeguard-media.php:1000
+msgid "Font Size:"
+msgstr "Tamaño de fuente:"
+
+#: wp-safeguard-media.php:1004
+msgid "Font Size for watermark."
+msgstr "Tamaño de fuente para marca de agua."
+
+#: wp-safeguard-media.php:1024
+msgid "Opacity:"
+msgstr "Opacidad:"
+
+#: wp-safeguard-media.php:1028
+msgid "CSS code for opacity of watermark."
+msgstr "Código CSS para la opacidad de la marca de agua."
+
+#: wp-safeguard-media.php:1045
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: wp-safeguard-media.php:1203
+msgid "Device type not authorised by this website!"
+msgstr "Tipo de dispositivo no autorizado por este sitio web!"
